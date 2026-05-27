@@ -158,6 +158,11 @@ body {
   margin-bottom: 2rem;
 }
 
+.hero__content {
+  padding-top: 2rem;
+}
+
+
 /* ===== SERVIÇOS ===== */
 .servicos {
   padding: 6rem 0;
