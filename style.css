@@ -330,7 +330,7 @@ body {
     align-items: center;
     gap: 2rem;
     padding: 2rem 0;
-    z-index: 99;
+    z-index: 999;
   }
 
   .nav__menu.active { display: flex; }
