@@ -21,7 +21,7 @@
                 <li><a href="#depoimentos">Depoimentos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
-            <button class="nav__hamburguer" id="hamburguer" aria-label="Abrir menu">
+            <button class="nav__hamburger" id="hamburger" aria-label="Abrir menu">
                 <span class=""></span>
                 <span class=""></span>
                 <span class=""></span>
@@ -31,13 +31,14 @@
 
      <!-- HERO -->
   <section class="hero" id="hero">
-    <div class="hero__content container">
-      <p class="hero__tag">Barbearia Premium</p>
-      <h1 class="hero__title">Estilo que fala <span>por você</span></h1>
-      <p class="hero__subtitle">Cortes precisos, atendimento exclusivo e ambiente diferenciado. Você merece o melhor.</p>
-      <a href="https://wa.me/5500000000000" class="btn btn--primary" target="_blank">Agendar agora</a>
-    </div>
-  </section>
+  <div class="hero__overlay"></div>
+  <div class="hero__content container">
+    <p class="hero__tag">Barbearia Premium</p>
+    <h1 class="hero__title">Estilo que fala <span>por você</span></h1>
+    <p class="hero__subtitle">Cortes precisos, atendimento exclusivo e ambiente diferenciado. Você merece o melhor.</p>
+    <a href="https://wa.me/5500000000000" class="btn btn--primary" target="_blank">Agendar agora</a>
+  </div>
+</section>
 
    <!-- SERVIÇOS -->
   <section class="servicos" id="servicos">
@@ -75,20 +76,23 @@
 
    <!-- SOBRE -->
   <section class="sobre" id="sobre">
-    <div class="container sobre__content">
-      <div class="sobre__texto">
-        <h2 class="section__title">Sobre a BarberKing</h2>
-        <p>Fundada em 2015, a BarberKing nasceu com uma missão: oferecer uma experiência premium de barbearia para homens que valorizam estilo e qualidade.</p>
-        <p>Nossa equipe é formada por profissionais certificados com mais de 10 anos de experiência, prontos para transformar seu visual.</p>
-        <ul class="sobre__lista">
-          <li>✅ Profissionais certificados</li>
-          <li>✅ Produtos importados de alta qualidade</li>
-          <li>✅ Ambiente climatizado e exclusivo</li>
-          <li>✅ Atendimento por agendamento</li>
-        </ul>
-      </div>
+  <div class="container sobre__content">
+    <div class="sobre__texto">
+      <h2 class="section__title">Sobre a BarberKing</h2>
+      <p>Fundada em 2015, a BarberKing nasceu com uma missão: oferecer uma experiência premium de barbearia para homens que valorizam estilo e qualidade.</p>
+      <p>Nossa equipe é formada por profissionais certificados com mais de 10 anos de experiência, prontos para transformar seu visual.</p>
+      <ul class="sobre__lista">
+        <li>✅ Profissionais certificados</li>
+        <li>✅ Produtos importados de alta qualidade</li>
+        <li>✅ Ambiente climatizado e exclusivo</li>
+        <li>✅ Atendimento por agendamento</li>
+      </ul>
     </div>
-  </section>
+    <div class="sobre__imagem">
+      <img src="assets/images/sobre.jpg" alt="Barbeiro trabalhando">
+    </div>
+  </div>
+</section>
 
   <!-- DEPOIMENTOS -->
   <section class="depoimentos" id="depoimentos">
@@ -101,7 +105,7 @@
         </div>
         <div class="depoimento">
           <p>"Ambiente incrível e profissionais muito capacitados. Indico para todos!"</p>
-          <strong>— Lucas P.</strong>
+          <strong>— Lucas B.</strong>
         </div>
         <div class="depoimento">
           <p>"Fui uma vez e virei cliente fiel. O Combo King vale cada centavo."</p>
